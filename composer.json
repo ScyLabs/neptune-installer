@@ -4,13 +4,6 @@
     "license": "MIT",
     "homepage": "https://github.com/ScyLabs/neptune-installer.git",
     "description": "Neptune recipe installer",
-    "repositories":[
-        {
-            "name": "scylabs/neptune-bundle",
-            "type": "vcs",
-            "url": "git@github.com:ScyLabs/NeptuneBundle.git"
-        }
-    ],
     "authors": [
         {
             "name": "Alexandre Sciacca",
@@ -18,7 +11,6 @@
         }
     ],
     "require": {
-        "scylabs/neptune-bundle": "^1.4"
     },
     "require-dev": {
     },
