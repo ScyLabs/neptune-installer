@@ -9,13 +9,12 @@
 namespace App\Controller;
 
 
-use ScyLabs\NeptuneBundle\Controller\BaseController;
 use ScyLabs\NeptuneBundle\Entity\Infos;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 
-class LegalNoticeController extends BaseController
+class LegalNoticeController extends AbstractController
 {
     /**
      * @Route("/legal-notice",name="mention")
